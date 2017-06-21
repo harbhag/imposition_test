@@ -1,0 +1,11 @@
+gw = (sh/fw) x (sw/fh)
+
+gh = (sh/fw) x (sw/fh)
+
+if(gw=cw) then gd = gwidth
+if(gw=ch) then gd = gheight
+
+if(gd=gheight) then ci = gheight
+if(gd=gwidth) then ci = gwidth
+
+
