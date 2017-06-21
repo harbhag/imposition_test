@@ -1,13 +1,14 @@
 $(document).ready(function() {
 
    $("#flat_height").focusout(function() {
-	   
+	   //Remove the extra options from Grain Way dropdown
 	   $('#grain_way option').each(function() {
 			if ( ($(this).val() != $("#flat_width").val()) &&  ($(this).val() != $("#flat_height").val())) {
 				$(this).remove();
 			}
 		});
 	   
+	   //Add the options from entered value
 	   if(!isNaN(this.value) && this.value!=''){
 		  
 		  if($('#grain_way option[value='+this.value+']').length == 0){
@@ -17,13 +18,13 @@ $(document).ready(function() {
    });
    
    $("#flat_width").focusout(function() {
-	   
+	   //Remove the extra options from Grain Way dropdown
 	   $('#grain_way option').each(function() {
 			if ( ($(this).val() != $("#flat_width").val()) &&  ($(this).val() != $("#flat_height").val())) {
 				$(this).remove();
 			}
 		});
-	   
+	   //Add the options from entered value
 	   if(!isNaN(this.value) && this.value!=''){
 		   if($('#grain_way option[value='+this.value+']').length == 0){
 			  $("#grain_way").append('<option value='+this.value+'>'+this.value+'</option>');
@@ -31,6 +32,7 @@ $(document).ready(function() {
 	   }
    });
    
+   //Remove the extra options from Grain Way dropdown
    $('#grain_way').focus(function() {
 	   $('#grain_way option').each(function() {
 			if ( ($(this).val() != $("#flat_width").val()) &&  ($(this).val() != $("#flat_height").val())) {
@@ -53,6 +55,7 @@ $(document).ready(function() {
 	   var flat_width = $("#flat_width").val();
 	   var flat_height = $("#flat_height").val();
 	   
+	   //calucate imposition1 and imposition2
 	   var imposition1 = parseInt(sheet_height/flat_width)*parseInt(sheet_width/flat_height);
 	   var imposition2 = parseInt(sheet_width/flat_width)*parseInt(sheet_height/flat_height);
 	   

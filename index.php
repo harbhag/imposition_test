@@ -39,6 +39,7 @@ integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJ
 <br>
 
 <div class="container">
+	<!-- User Input Fields form -->
 	   <h4>User Inputs</h4>
 	   
 	<form class="form-horizontal" action='' method='post'>
@@ -87,7 +88,7 @@ integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJ
   </div>
   
 
-		<!--Calculated Inputs-->
+		<!--Calculated Inputs fields form-->
 		<br/><br/>
 		<h4>Calculated Inputs</h4>
 		
