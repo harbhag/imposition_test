@@ -55,7 +55,7 @@ $(document).ready(function() {
 	   var flat_width = $("#flat_width").val();
 	   var flat_height = $("#flat_height").val();
 	   
-	   //calucate imposition1 and imposition2
+	   //calculate imposition1 and imposition2
 	   var imposition1 = parseInt(sheet_height/flat_width)*parseInt(sheet_width/flat_height);
 	   var imposition2 = parseInt(sheet_width/flat_width)*parseInt(sheet_height/flat_height);
 	   
