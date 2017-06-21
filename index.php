@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css"
 integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
 
-		<title>Admin</title>
+		<title>Imposition Test</title>
 	</head>
 	<body>
 
